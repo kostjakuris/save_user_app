@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { Button, Flex, Image, Text } from '@chakra-ui/react';
-import { button, titleOne, value, valuePlaceholder } from '../../asserts/globalStyles';
+import { cardButton, titleOne, value, valuePlaceholder } from '../../asserts/globalStyles';
 import { useModal } from '../../providers/ModalProvider/ModalProvider.hooks';
 import WeatherModal from '../WeatherModal/WeatherModal';
 import CardWrapper from '../CardWrapper/CardWrapper';
@@ -53,17 +53,17 @@ const UserCard: FC<UserCardProps> = ({
         </Flex>
         <Flex w={'100%'} justify='space-between' align='center' p={'10px 0'}>
           <Text css={valuePlaceholder}>Email</Text>
-          <Text css={value}>{email}</Text>
+          <Text css={value} ml={'10px'}>{email}</Text>
         </Flex>
       </Flex>
       <Flex pt='40px' width='100%' justify='space-between' align='center'>
         {isMainPage && (
-          <Button css={button} onClick={saveUserInStorage}>
+          <Button css={cardButton} onClick={saveUserInStorage}>
             Save
           </Button>
         )
         }
-        <Button w={isMainPage ? '130px' : '100%'} css={button}
+        <Button w={isMainPage ? '130px' : '100%'} css={cardButton}
           onClick={() => openModal(<WeatherModal latitude={latitude} longitude={longitude} />)}>
           Weather
         </Button>

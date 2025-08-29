@@ -12,7 +12,8 @@ const CardWrapper: FC<CardWrapperProps> = ({children}) => {
       m={'80px 20px 0 20px'}
       p={'30px 20px'}
       borderRadius={'10px'}
-      w={'350px'}
+      maxW={'350px'}
+      w={'100%'}
       bg='blue.400'
     >
       {children}

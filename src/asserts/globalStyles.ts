@@ -21,6 +21,23 @@ export const value = {
   md: {fontSize: 'sm', lineHeight: '18px'},
   fontWeight: '500',
   color: 'white',
+  overflowWrap: 'break-word',
+  wordBreak: 'break-word'
+};
+
+export const cardButton = {
+  color: 'black',
+  fontWeight: '500',
+  fontSize: '15px',
+  lineHeight: '22px',
+  lg: {width: '130px'},
+  md: {width: '130px'},
+  sm: {width: '80px'},
+  px: '20px',
+  height: '40px',
+  borderRadius: '15px',
+  backgroundColor: 'white',
+  _hover: {backgroundColor: 'gray.100'},
 };
 
 export const button = {

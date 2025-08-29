@@ -33,7 +33,7 @@ export const system = createSystem(defaultConfig, {
     },
     breakpoints: {
       sm: "200px",
-      md: "700px",
+      md: "400px",
       lg: "900px",
       xl: "1200px",
     },
