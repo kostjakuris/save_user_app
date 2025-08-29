@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+<line x1="70.0" y1="56.0" x2="80.0" y2="56.0" stroke="#FFD54F" stroke-width="6" stroke-linecap="round"/>
+<line x1="63.6" y1="71.6" x2="70.6" y2="78.6" stroke="#FFD54F" stroke-width="6" stroke-linecap="round"/>
+<line x1="48.0" y1="78.0" x2="48.0" y2="88.0" stroke="#FFD54F" stroke-width="6" stroke-linecap="round"/>
+<line x1="32.4" y1="71.6" x2="25.4" y2="78.6" stroke="#FFD54F" stroke-width="6" stroke-linecap="round"/>
+<line x1="26.0" y1="56.0" x2="16.0" y2="56.0" stroke="#FFD54F" stroke-width="6" stroke-linecap="round"/>
+<line x1="32.4" y1="40.4" x2="25.4" y2="33.4" stroke="#FFD54F" stroke-width="6" stroke-linecap="round"/>
+<line x1="48.0" y1="34.0" x2="48.0" y2="24.0" stroke="#FFD54F" stroke-width="6" stroke-linecap="round"/>
+<line x1="63.6" y1="40.4" x2="70.6" y2="33.4" stroke="#FFD54F" stroke-width="6" stroke-linecap="round"/>
+<circle cx="48" cy="56" r="20" fill="#FFD54F" stroke="#FBC02D" stroke-width="4"/>
+    <g>
+      <ellipse cx="76" cy="72" rx="32.4" ry="14.4" fill="#90A4AE"/>
+      <circle cx="59.8" cy="63.0" r="19.8" fill="#90A4AE"/>
+      <circle cx="81.4" cy="59.4" r="16.2" fill="#90A4AE"/>
+      <circle cx="94.0" cy="70.2" r="23.400000000000002" fill="#90A4AE"/>
+      <!-- subtle bottom shadow -->
+      <ellipse cx="76" cy="79.2" rx="32.4" ry="10.08" fill="#CFD8DC" opacity="0.25"/>
+    </g>
+    
+</svg>

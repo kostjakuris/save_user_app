@@ -1,0 +1,18 @@
+export const weatherImages: Record<number, string> = {
+  0: '/images/weather_0.svg',
+  1: '/images/weather_1.svg',
+  2: '/images/weather_2.svg',
+  3: '/images/weather_3.svg',
+  45: '/images/weather_45.svg',
+  48: '/images/weather_48.svg',
+  51: '/images/weather_51.svg',
+  53: '/images/weather_53.svg',
+  55: '/images/weather_55.svg',
+  61: '/images/weather_61.svg',
+  63: '/images/weather_63.svg',
+  65: '/images/weather_65.svg',
+  71: '/images/weather_71.svg',
+  73: '/images/weather_73.svg',
+  75: '/images/weather_75.svg',
+  95: '/images/weather_95.svg',
+};
