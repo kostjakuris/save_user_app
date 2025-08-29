@@ -1,4 +1,3 @@
-'use client';
 import React, { createContext, FC, ReactNode, useCallback, useState, } from 'react';
 import styles from './modal.module.scss';
 import { ModalContextProps } from './ModalProvider.types';
@@ -27,7 +26,7 @@ const ModalProvider: FC<{children: ReactNode}> = ({children}) => {
         </Box>
       </Flex>
     ),
-    [modalContent, closeModal],
+    [modalContent],
   );
   
   return (
